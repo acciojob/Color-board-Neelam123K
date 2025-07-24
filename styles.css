@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(40, 20px); 
+  grid-gap: 2px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background-color: #1d1d1d;
+	gap: 1px;
+  border: 1px solid #111;
+  transition: background-color 0.5s ease;
+}
